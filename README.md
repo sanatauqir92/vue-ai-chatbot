@@ -1,6 +1,10 @@
 "# vue-ai-chatbot"
 
-# Nuxt 3 Minimal Starter
+## Vue-AI-Chatbot
+
+This project is in development. It is a purely learning project, built off the boilerplate code provided by Vue School. The technologies used are Vue.js 3 with the Composition API, Nuxt, Typescript and TailwindCSS.
+
+## Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
