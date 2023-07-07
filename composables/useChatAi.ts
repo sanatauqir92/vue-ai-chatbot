@@ -1,8 +1,4 @@
 import type { Agent } from "@/agents";
-/**
- * This composables is a base composable
- * meant to be extended by specific soical platform composables
- */
 import type { AsyncState } from "@/types";
 import type { CreateChatCompletionResponse } from "openai";
 
@@ -27,7 +23,7 @@ export const useChatAi = ({ agent }: { agent: Agent }) => {
           method: "POST",
           body: {
             ...options,
-            agent,
+            agent: `${agent}Agent`,
           },
         }
       );
