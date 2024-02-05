@@ -10,7 +10,10 @@ const form = reactive({
 });
 </script>
 <template>
-  <form @submit.prevent="$emit('submit', form)" class="mb-10">
+  <p>Step 1: Copy and paste a url from a news source </p>
+  <p>(ex: https://www.cnn.com/cnn-underscored/home/hgtv-jasmine-roth-home-essentials)</p>
+  <p>Step 2: Drag the temperature slider to set how creative of an announcement you would like to generate</p>
+  <form @submit.prevent="$emit('submit', form)" class="mb-10 mt-5">
     <div class="flex">
       <input
         placeholder="Full Article URL"
