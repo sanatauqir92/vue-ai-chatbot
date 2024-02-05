@@ -2,7 +2,7 @@
 
 ## Vue-AI-Chatbot
 
-This project is in development. It is a purely learning project, built off the boilerplate code provided by Vue School. The technologies used are Vue.js 3 with the Composition API, Nuxt, Typescript and TailwindCSS.
+This project is a purely learning project, built off the boilerplate code provided by Vue School. The technologies used are Vue.js 3 with the Composition API, Nuxt, Typescript and TailwindCSS.
 
 ## Nuxt 3 Minimal Starter
 
@@ -30,19 +30,3 @@ Start the development server on http://localhost:3000
 ```bash
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
